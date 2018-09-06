@@ -4,7 +4,7 @@ metadata:
   name: ubuntu-compute-sf
 spec:
   nodeSelector:
-    "kubernetes.io/hostname": compute-contrail-sf
+    "kubernetes.io/hostname": computesf
   containers:
     - name: ubuntu-compute-sf
       image: virtualhops/ato-ubuntu:latest
